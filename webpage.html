@@ -1,0 +1,243 @@
+<html>
+<head>
+<title>My First HTML File</title>
+<link href="img/logo.jpg" rel="icon"/>
+<style>
+#outer
+{
+ height:1500px;
+ width:1000px;
+ margin:0px auto;
+}
+.image
+{
+ height:500px;
+ width:1000px;
+ background:url("img/a.jpg");
+ background-size:cover;
+}
+#menu
+{
+ height:50px;
+ width:1000px;
+ background:rgb(111,78,0,0.6);
+}
+#m1
+{
+ height:50px;
+ width:600px;
+ padding:10px 80px;
+ font-size:18px;
+ color:#fff;
+ float:left;
+ box-sizing:border-box;
+}
+#m2
+{
+ height:50px;
+ width:400px;
+ box-sizing:border-box;
+ color:white;
+ font-size:18px;
+ float:left;
+ padding:15px;
+}
+#m2 ul
+{
+ list-style-type:none;
+}
+#m2 ul li
+{
+ height:45px;
+ width:70px;
+ float:left;
+ color:white;
+ transition:1s;
+ text-align:center;
+ line-height:45px;
+ transform:translatey(-30px);
+ transition:1s;
+}
+#m2 ul li:hover
+{ 
+ border-radius:20px;
+ height:40px;
+ width:75px;
+ background:#f56139;
+ transition:1s;
+  box-shadow:5px 5px 4px rgb(111,78,0,1);
+  cursor:pointer;
+}
+#text
+{
+ height:450px;
+ width:1000px;
+ background:rgb(111,78,0,0.6);
+ padding:70px 120px;
+ color:white;
+ text-align:center;
+ box-sizing:border-box;
+}
+.btn
+{ 
+ height:40px;
+ width:120px;
+ color:#fff;
+ background:rgb(111,78,0,0.9);
+  border:none;
+ border-radius:30px;
+}
+.btn:hover
+{
+ height:50px;
+ width:140px;
+ box-shadow:5px 5px 4px #f56139;
+ transition:2s;
+ cursor:pointer;
+}
+.btn1
+{ 
+ height:40px;
+ width:120px;
+ background:#f56139;
+ color:#fff;
+ border:none;
+ border-radius:30px;
+}
+.btn1:hover
+{
+ height:50px;
+ cursor:pointer;
+ width:140px;
+ box-shadow:5px 5px 4px rgb(111,78,0,1),-5px -5px 4px rgb(111,78,0,1);
+ transition:2s;
+}
+.btn2
+{ 
+ height:40px;
+ width:120px;
+ background:#fff;
+ color:#f56139;
+ transition:1s;
+ border:none;
+ border-radius:30px;
+}
+.btn2:hover
+{
+ height:50px;
+ width:140px;
+ box-shadow:5px 5px 4px #f56139;
+ transition:2s;
+ cursor:pointer;
+}
+#middle
+{
+ height:280px;
+ width:1000px;
+ background:#f56139;
+ color:white;
+ text-align:center;
+ padding:20px 100px;
+ box-sizing:border-box;
+}
+#footer
+{
+ height:400px;
+ width:1000px;
+}
+#footer img
+{
+ height:200px;
+ width:333.33px;
+ float:left;
+}
+#Service
+{
+ height:280px;
+ width:1000px;
+ background:white;
+ color:black;
+}
+#s1
+{
+ height:100px;
+ width:1000px;
+ padding:20px 100px;
+ box-sizing:border-box;
+}
+#s2
+{
+ height:180px;
+ width:1000px;
+ padding:20px;
+ box-sizing:border-box;
+}
+.boxes
+{
+ float:left;
+ height:170px;
+ width:200px;
+ padding:5px 20px;
+}
+.boxes img
+{
+ height:50px;
+ width:50px;
+ padding-left:50px;
+}
+.boxes b
+{
+ text-align:center;
+ padding-left:30px;
+}
+</style>
+</head>
+<body>
+  <div id="outer">
+    <div class="image">
+	  <div id="menu">
+	     <div id="m1">My HTML File</div>
+	     <div id="m2">
+		 <ul>
+		   <li>Home</li>
+		   <li>Service</li>
+		   <li>Register</li>
+		   <li>Contact</li>
+		 </ul>
+		 </div>
+	  </div>
+	  <div id="text">
+	   <h1> ADMIRE MY HTML WEBSITE!</h1>
+	   <p>Food is my love language. The only drama I enjoy is in my food.<br/>Food is the spice of life! Food is my therapy</p>
+	   <input type="button" class="btn" value="Learn More"/><br/>
+	   <br/><input type="button" class="btn1" value="Explore Food"/>
+	  </div>
+	</div>
+	<div id="middle">
+	 <h3>We've Got What You Need!</h3>
+	 <hr height=5px width="20px" color="white" />
+	 <p>Food is my love language. The only drama I enjoy is in<br/> my food. Life is short; eat dessert first! Food is the spice of life! Food is my therapy –<br/> I’m in a committed relationship.</p>
+	 <br/><input type="button" class="btn2" value="Read More"/>
+	</div>
+	<div id="service">
+	<div id="s1">
+	 <h3 style="color:#f56139; text-align:center;">At Your Service</h3>
+	 <hr height=5px width="40px" color="#f56139" /></div>
+	 <div id="s2">
+	    <div class="boxes"><img src="img/a1.png"/><br/><b>Sturdy Themes</b><p>Food themes more to finds and I enjoy is in my food</p></div>
+	    <div class="boxes"><img src="img/a2.png"/><br/><b>Up to Date</b><p>Date wise food therapy Life is short; eat dessert first!</p></div>
+	    <div class="boxes"><img src="img/a3.png"/><br/><b>Ready to Publish</b><p>Publish Your Date with<br/> moody food</p></div>
+	    <div class="boxes"><img src="img/a4.png"/><br/><b>Made with Love</b><p style="padding-left:20px;">Food is Therapy and Food is the spice of life!</p></div>
+	 </div>
+	</div>
+	<div id="footer">
+	  <img src="img/b.jpg"></img>
+	  <img src="img/c.jpg"></img>
+	  <img src="img/d.jpg"></img>
+	  <img src="img/e.jpg"></img>
+	  <img src="img/f.jpg"></img>
+	  <img src="img/g.jpg"></img>
+	</div>
+  </div>
+</body>
+</html>
